@@ -21,6 +21,7 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
+    <>
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -47,5 +48,6 @@ export default function MediaCard() {
         </Button>
       </CardActions>
     </Card>
+    </>
   );
 }
