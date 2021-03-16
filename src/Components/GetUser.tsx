@@ -40,6 +40,7 @@ const GetUser = () => {
             console.log(response.data);
         })()
     }, [])
+    /* Tested */
 
 
     return (
